@@ -1,7 +1,4 @@
-sudo: false
 language: java
-services:
-  - docker
-cache:
-  directories:
-    - "$HOME/.cache"
+sudo: false # faster builds
+
+script: "mvn clean test"
