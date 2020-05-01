@@ -2,8 +2,31 @@ pipeline {
   agent any
   stages {
     stage('Welcome') {
-      steps {
-        echo 'Hello Pritam, Welcome to cloudbees jenkins'
+      parallel {
+        stage('Welcome') {
+          steps {
+            echo 'Hello Pritam, Welcome to cloudbees jenkins'
+          }
+        }
+
+        stage('Ping Pritam') {
+          steps {
+            echo 'Pritam'
+          }
+        }
+
+        stage('Ping Tejas') {
+          steps {
+            echo 'Hello Tejas'
+          }
+        }
+
+        stage('Ping Shaila') {
+          steps {
+            echo 'Hello Shaila'
+          }
+        }
+
       }
     }
 
