@@ -1,11 +1,11 @@
 pipeline {
   agent any
   stages {
-    stage('Welcome') {
+    stage('ParallelStageExample') {
       parallel {
-        stage('Welcome') {
+        stage('Ping Jenkins') {
           steps {
-            echo 'Hello Pritam, Welcome to cloudbees jenkins'
+            echo 'Welcome to cloudbees jenkins'
           }
         }
 
