@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources",
         strict = true,
         plugin = {
-                "de.monochromata.cucumber.report.PrettyReports:target/cucumber",
-                "json:target/cucumber-report/cucumber.json"
+                "de.monochromata.cucumber.report.PrettyReports:target/cucumber"
+                //"json:target/cucumber-report/cucumber.json"
         }
 )
 public class RunTest {
