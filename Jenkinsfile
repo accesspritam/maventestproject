@@ -7,9 +7,11 @@ pipeline {
       }
     }
 
-    stage('PWD') {
+    stage('RandomStage') {
       steps {
         pwd(tmp: true)
+        sleep 5
+        sh 'echo \'Jenkins cicd tool\''
       }
     }
 
