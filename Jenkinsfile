@@ -38,5 +38,11 @@ pipeline {
       }
     }
 
+    stage('Tool') {
+      steps {
+        tool 'Maven3'
+      }
+    }
+
   }
 }
