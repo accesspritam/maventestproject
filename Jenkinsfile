@@ -38,13 +38,5 @@ pipeline {
       }
     }
 
-    stage('Tool') {
-      steps {
-        tool 'Maven3'
-        sh '''mvn clean test
-'''
-      }
-    }
-
   }
 }
