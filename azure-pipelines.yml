@@ -7,7 +7,8 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  name: Default
+  demands: Pritam-MacBook
 
 steps:
 - task: Maven@3
