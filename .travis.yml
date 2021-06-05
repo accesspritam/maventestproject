@@ -1,2 +1,5 @@
 language: java
 sudo: false # faster builds
+branches:
+  only:
+  - master
