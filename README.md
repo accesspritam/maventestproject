@@ -8,4 +8,4 @@ This test repository is integrated with 3 continous integration CI tools namely
 
 2. Circle CI [![CircleCI](https://circleci.com/gh/accesspritam/maventestproject/tree/master.svg?style=svg)](https://app.circleci.com/pipelines/github/accesspritam/maventestproject/?branch=master)
 
-3. Azure piepline [![Build Status](https://dev.azure.com/accesspritam/accesspritam/_apis/build/status/accesspritam-mvn?branchName=azure-pipelines)](https://dev.azure.com/accesspritam/accesspritam/_build/latest?definitionId=5&branchName=azure-pipelines)
+3. Azure piepline [![Build Status](https://dev.azure.com/accesspritam/accesspritam/_apis/build/status/accesspritam-mvn?branchName=master)](https://dev.azure.com/accesspritam/accesspritam/_build/latest?definitionId=5&branchName=master)
